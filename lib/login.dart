@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
               children: <Widget>[
                 Image.asset('assets/diamond.png'),
                 const SizedBox(height: 16.0),
-                const Text('Dokan'),
+                const Text('Shrine'),
               ],
             ),
             const SizedBox(height: 120.0),
