@@ -1,2 +1,2 @@
-# Dokan
- Material You Flutter e-com
+# Shrine
+ Material You Flutter e-commerce app
