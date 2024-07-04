@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
               children: <Widget>[
                 Image.asset('assets/diamond.png'),
                 const SizedBox(height: 16.0),
-                const Text('Shrine'),
+                const Text('Dokan'),
               ],
             ),
             const SizedBox(height: 120.0),
@@ -39,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
                 labelText: 'Username',
               ),
             ),
-            const SizedBox(height: 120.0),
+            const SizedBox(height: 20.0),
             TextField(
               controller: _passwordController,
               decoration: InputDecoration(
@@ -67,7 +67,8 @@ class _LoginPageState extends State<LoginPage> {
                   child: Text('NEXT'),
                   onPressed: () {
                     // TODO: Show the next page (101)
-                    Navigator.pop(context);                  },
+                    Navigator.pop(context);
+                  },
                 ),
               ],
             ),
